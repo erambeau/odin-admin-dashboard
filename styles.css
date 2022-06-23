@@ -44,6 +44,8 @@ body {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
+
+    gap: 2vh;
 }
 
 
@@ -189,6 +191,18 @@ body {
     background-color: aqua;
 }
 
+
+
+.annoucements > .list-of-annoucements {
+    flex: 1;
+    background-color: white;
+}
+
+
+
+/* -------- */
+
+
 .announcements-and-trendings > .trendings {
     display: flex;
     flex-direction: column;
@@ -196,12 +210,28 @@ body {
 
 }
 
-.annoucements > .list-of-annoucements {
-    flex: 1;
-    background-color: white;
-}
-
 .trendings > .list-of-trendings {
     flex: 1;
     background-color: white;
+
+    display: grid;
+    grid-row: repeat(4, 1fr);
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.list-of-trendings > .trending-content {
+    display: flex;
+    gap: 1vh;
+}
+
+.trending-content > .full-text-trending {
+    display: flex;
+    flex-direction: column ;
+}
+
+.full-text-trending > .username {
+    font-weight: bold;
 }
