@@ -14,11 +14,17 @@ body {
     width: auto;
 }
 
+/*******  First level layout *******/
+
 .sidebar {
-    display: grid;
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: lightblue;
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+
 }
 
 .header {
@@ -34,3 +40,39 @@ body {
     grid-row: 2 / 3;
     background-color: lightcoral;
 }
+
+
+/******* Second level layout *******/
+
+/* Sidebar */
+
+.sidebar > .title-sidebar {
+    display: flex;
+}
+
+.title-sidebar > h1 {
+    color: white;
+}
+
+.sidebar > .group-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.group-sidebar > .option-sidebar {
+    display: flex;
+}
+
+.option-sidebar > h2 {
+    color: white;
+}
+
+
+/* Header */
+
+
+
+/* Main-content */
+
+
