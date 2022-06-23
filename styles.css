@@ -196,8 +196,28 @@ body {
 .annoucements > .list-of-annoucements {
     flex: 1;
     background-color: white;
+
+    display: grid;
+    grid-row: repeat(3, 1fr);
+
+    align-items: center;
+    padding: 2vh 2vw;
 }
 
+.list-of-annoucements > .announcement-content {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 2vh;
+}
+
+.announcement-content > .announcement-title {
+    font-weight: bold;
+}
+
+.announcement-content > .line-between-announcements{
+    margin-top: 2vh;
+}
 
 
 /* -------- */
