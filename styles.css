@@ -28,10 +28,13 @@ body {
 }
 
 .header {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     background-color: peachpuff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
 }
 
 .main-content {
@@ -71,7 +74,61 @@ body {
 
 /* Header */
 
+.header > #header-1st-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+}
 
+.header > #header-2nd-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh 5vw;
+}
+
+#header-1st-row > .search-part {
+    display: flex;
+}
+
+#header-1st-row > .notif-and-profile {
+    display: flex;
+}
+
+
+#header-2nd-row > .hi-there-part {
+    display: flex;
+    align-items: center;
+    gap: 2vh;
+}
+
+.hi-there-part > .full-text-hi-there {
+    display: flex;
+    flex-direction: column;   
+}
+
+.full-text-hi-there > #hithere {
+    font-size: 20px;
+}
+
+.full-text-hi-there > #username {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#header-2nd-row > .buttons-part {
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+
+.buttons-part > button {
+    color: white;
+    background-color: blue;
+    border-radius: 2vh;
+    width: 8vw;
+    height: 4vh;
+}
 
 /* Main-content */
 
