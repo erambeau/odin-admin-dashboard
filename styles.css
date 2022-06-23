@@ -38,10 +38,12 @@ body {
 }
 
 .main-content {
-    display: grid;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: lightcoral;
+
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 
@@ -121,7 +123,6 @@ body {
     align-items: center;
 }
 
-
 .buttons-part > button {
     color: white;
     background-color: blue;
@@ -133,3 +134,50 @@ body {
 /* Main-content */
 
 
+
+.main-content > .projects {
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+}
+
+
+.projects > .list-of-projects {
+    flex: 1 ;
+    background-color: green;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+
+/* -------- */
+
+
+.main-content > .announcements-and-trendings {
+    display: grid;
+    grid-row: 1fr 1fr;
+}
+
+.announcements-and-trendings > .annoucements {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.announcements-and-trendings > .trendings {
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+
+}
+
+.annoucements > .list-of-annoucements {
+    flex: 1;
+    background-color: white;
+}
+
+.trendings > .list-of-trendings {
+    flex: 1;
+    background-color: white;
+}
