@@ -166,7 +166,8 @@ body {
     background-color: var(--main-background-color);
     border: none;
     border-radius: 2vh;
-    flex: 1;
+    width: 40vw;
+
     height: 3vh;
     padding: 0.5vh 1vw;
 }
@@ -180,6 +181,7 @@ body {
 #header-1st-row > .notif-and-profile-part {
     display: flex;
     align-items: center;
+    justify-content: right;
     gap: 2vw;
     margin-left: 10vw;
 }
