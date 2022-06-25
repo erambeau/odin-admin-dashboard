@@ -58,7 +58,7 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
 
-    gap: 2vh;
+    gap: 3vw;
     padding: 4vh 2vw;
 }
 
