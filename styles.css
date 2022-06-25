@@ -5,6 +5,8 @@
   --sidebar-buttons-color: rgb(25, 145, 210);
   --main-background-color: rgb(225, 230, 240);
   --over-background-color: rgb(255, 255, 255);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -33,6 +35,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5vh;
+
+    padding: 5vh 2vw;
 
 }
 
@@ -64,24 +68,55 @@ body {
 
 .sidebar > .title-sidebar {
     display: flex;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.title-sidebar > img {
+    width: auto;
+    height: auto;
+    max-width: 70px;
+    max-height: 70px;
+    filter: invert(100%);
 }
 
 .title-sidebar > h1 {
     color: var(--over-background-color);
+    font-size: 36px;
 }
 
 .sidebar > .group-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 2vh;
 }
 
 .group-sidebar > .option-sidebar {
     display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.option-sidebar > img {
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+    filter: invert(100%);
 }
 
 .option-sidebar > h2 {
+    font-size: 20px;
+}
+
+.option-sidebar > h2 > a {
+    text-decoration: none;
     color: var(--over-background-color);
+}
+
+.option-sidebar > h2 > a:hover {
+    color: aqua;
+    font-size: 24px;
 }
 
 
