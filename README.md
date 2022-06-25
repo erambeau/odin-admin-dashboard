@@ -22,7 +22,7 @@ I'm less sure about responsive design. Well, it _does_ work when growing or redu
 * The use of variables for colors. It's fabulous.
 * The property "filter" to apply.... well, filters on an image. BTW, this website is awesome to generate filters for a specific color : https://codepen.io/sosuke/pen/Pjoqqp
 * Background image & transparency :)
-* <hr /> for a line is buggy in a flexbox. You have to use width: 100%;. Thx https://stackoverflow.com/a/34365325
+* The hr tag for a line is buggy in a flexbox. You have to use width: 100%;. Thx https://stackoverflow.com/a/34365325
 
 
 # What I could do better
