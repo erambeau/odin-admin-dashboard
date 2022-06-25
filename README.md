@@ -9,6 +9,8 @@ I work on desktop.
 * Custom colors, logos, font.
 
 # Conclusion
+See the live result : https://erambeau.github.io/odin-admin-dashboard/
+
 According to my Toggl report, I clocked 6 hours & 30 minutes on this project, which is my first using CSS grid & personnalization.
 I reached by goals about applying CSS Grid & customing colors, logos, fonts.
 I'm less sure about responsive design. Well, it _does_ work when growing or reducing window, of when zooming or dezooming, on desktop. But I think it is still possible to make efforts in order to pimp all of those. Moreover, I'm stil not satisfied of the result of mobile. I think there will be more lessons on it, so I don't put so much efforts on it now. 
